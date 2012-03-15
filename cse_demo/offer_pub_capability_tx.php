@@ -28,7 +28,6 @@ include_once 'avro.php';
 // -- $query - product for which to obtains data
 function getTestProductData($apikey, $query) 
 {
-	$apikey = "AIzaSyDxY5s1Ib7wgoDKlqV_NXN1t7vJ2QDH9QQ"; // Bill's Google product search API key
 	
     // Build a URL that retrieves product info from the Google product search site
 	// model URL - https://www.googleapis.com/shopping/search/v1/public/products/?key=KEY&q=QUERY&country=US
