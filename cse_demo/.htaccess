@@ -1,0 +1,18 @@
+# Enable rewrite engine and route requests to appropriate files
+RewriteEngine On
+RewriteBase /web/cse_demo
+RewriteRule ^cse/offer/create$ cse_capability.php [L]
+RewriteRule ^cse/offer/created$ offer_pub_capability_rx.php [L]
+
+# Disable ETags
+<IfModule mod_headers.c>
+	Header Unset ETag
+	FileETag none
+</IfModule>
+
+# Default expires header if none specified (stay in browser cache for 7 days)
+<IfModule mod_expires.c>
+	ExpiresActive On
+	ExpiresDefault A604800
+</IfModule>
+

@@ -1,0 +1,764 @@
+============================================
+
+INFO: Message posted by the Fabric on topic /cse/offer/create
+
+INFO: HTTP headers retrieved from received message: Array
+(
+    [Authorization] => Bearer QkEAATLu73MuKx43NRDzn8ug0yHWAoLR3f3r0x0aiQfv0IsTIunYcozzTfJK1B0U8firvQ==
+    [Content-Type] => avro/binary
+    [X-XC-MESSAGE-GUID] => 0e5ba5ba-e24e-4e7c-a52d-bf76eff6c646
+    [X-XC-PUBLISHER] => TUQAAVjKi5piehsC1p9Xa55ZMWVSASrNaxPjg+DkboTnzzTutfaNibVA62ma74lI/5wptQ==
+    [X-XC-SCHEMA-URI] => http://localhost/web/cse_demo/cse.avpr
+    [X-XC-SCHEMA-VERSION] => 1.0.0
+    [X-XC-TENANT-ID] => VEkAAUdMPOR7BA5HRCGB/u8DgZCEZhbT7iuWc8Z2JUvf+mGs5furvgFEDDBQIRSgzkUGiw==
+    [Content-Length] => 331
+    [Host] => 127.0.0.1
+    [Connection] => Keep-Alive
+    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+)
+
+
+INFO: URI of Avro message schema retrieved from received message: http://localhost/web/cse_demo/cse.avpr
+
+============================================
+
+INFO: Message posted by the Fabric on topic /cse/offer/create
+
+INFO: HTTP headers retrieved from received message: Array
+(
+    [Authorization] => Bearer QkEAAW2VMIoOWKtRhDjyg5l8Xfd9Z2hzu2B97O4tdK2YC85lxzCl/WjFXoX8r86BbBETLQ==
+    [Content-Type] => avro/binary
+    [X-XC-MESSAGE-GUID] => ffe26fa4-e581-4b29-bae7-070a854480a7
+    [X-XC-PUBLISHER] => TUQAAeRxB5gs5exX1MUR3iZrPiNl4TcjFtmYlk9KTcMtos6qEXlGiaYdeCE2eLLfMOwaCQ==
+    [X-XC-SCHEMA-URI] => http://localhost/web/cse_demo/cse.avpr
+    [X-XC-SCHEMA-VERSION] => 1.0.0
+    [X-XC-TENANT-ID] => VEkAAZM6ELD1RMi9IRzX+e8nRoP2ny8IObDGqwlJSfjcX9sCu40cLfIONaOpVHcRz6G3NA==
+    [Content-Length] => 331
+    [Host] => 127.0.0.1
+    [Connection] => Keep-Alive
+    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+)
+
+
+INFO: URI of Avro message schema retrieved from received message: http://localhost/web/cse_demo/cse.avpr
+
+INFO: Decoded message: Array
+(
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [sku] => 5849653452890551706
+                    [title] => Adcom GFR700 Adcom Gfr-700 7.1-Channel 145-Watt A/V Receiver
+                    [description] => Adcom Gfr-700 7.1-Channel 145-Watt A/V Receiver
+                    [manufacturer] => Audiovideo Dimension
+                    [MPN] => NA
+                    [GTIN] => NA
+                    [brand] => Adcom
+                    [category] => NA
+                    [images] => Array
+                        (
+                        )
+
+                    [link] => http://www.audiovideodimension.com/adcom-gfr700-p-6667.html?currency=USD
+                    [condition] => New
+                    [salePrice] => Array
+                        (
+                            [amount] => 999.99
+                            [code] => USD
+                        )
+
+                    [originalPrice] => Array
+                        (
+                            [amount] => 999.99
+                            [code] => USD
+                        )
+
+                    [availability] => InStock
+                    [taxRate] => Array
+                        (
+                            [country] => US
+                            [region] => TX
+                            [rate] => 8.5
+                            [taxShipping] => 
+                        )
+
+                    [shipping] => Array
+                        (
+                            [country] => US
+                            [region] => TX
+                            [service] => UPS
+                            [price] => Array
+                                (
+                                    [amount] => 3.99
+                                    [code] => USD
+                                )
+
+                        )
+
+                    [shippingWeight] => 0
+                    [attributes] => Array
+                        (
+                        )
+
+                    [variations] => Array
+                        (
+                        )
+
+                    [offerId] => NA
+                    [cpc] => Array
+                        (
+                            [amount] => 0
+                            [code] => USD
+                        )
+
+                )
+
+        )
+
+    [productFeedType] => Full
+)
+
+
+INFO: Decoded message: Array
+(
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [sku] => 5849653452890551706
+                    [title] => Adcom GFR700 Adcom Gfr-700 7.1-Channel 145-Watt A/V Receiver
+                    [description] => Adcom Gfr-700 7.1-Channel 145-Watt A/V Receiver
+                    [manufacturer] => Audiovideo Dimension
+                    [MPN] => NA
+                    [GTIN] => NA
+                    [brand] => Adcom
+                    [category] => NA
+                    [images] => Array
+                        (
+                        )
+
+                    [link] => http://www.audiovideodimension.com/adcom-gfr700-p-6667.html?currency=USD
+                    [condition] => New
+                    [salePrice] => Array
+                        (
+                            [amount] => 999.99
+                            [code] => USD
+                        )
+
+                    [originalPrice] => Array
+                        (
+                            [amount] => 999.99
+                            [code] => USD
+                        )
+
+                    [availability] => InStock
+                    [taxRate] => Array
+                        (
+                            [country] => US
+                            [region] => TX
+                            [rate] => 8.5
+                            [taxShipping] => 
+                        )
+
+                    [shipping] => Array
+                        (
+                            [country] => US
+                            [region] => TX
+                            [service] => UPS
+                            [price] => Array
+                                (
+                                    [amount] => 3.99
+                                    [code] => USD
+                                )
+
+                        )
+
+                    [shippingWeight] => 0
+                    [attributes] => Array
+                        (
+                        )
+
+                    [variations] => Array
+                        (
+                        )
+
+                    [offerId] => NA
+                    [cpc] => Array
+                        (
+                            [amount] => 0
+                            [code] => USD
+                        )
+
+                )
+
+        )
+
+    [productFeedType] => Full
+)
+
+
+INFO: Item inserted in database: Array
+(
+    [0] => Array
+        (
+            [sku] => 5849653452890551706
+            [title] => Adcom GFR700 Adcom Gfr-700 7.1-Channel 145-Watt A/V Receiver
+            [description] => Adcom Gfr-700 7.1-Channel 145-Watt A/V Receiver
+            [manufacturer] => Audiovideo Dimension
+            [MPN] => NA
+            [GTIN] => NA
+            [brand] => Adcom
+            [category] => NA
+            [images] => Array
+                (
+                )
+
+            [link] => http://www.audiovideodimension.com/adcom-gfr700-p-6667.html?currency=USD
+            [condition] => New
+            [salePrice] => Array
+                (
+                    [amount] => 999.99
+                    [code] => USD
+                )
+
+            [originalPrice] => Array
+                (
+                    [amount] => 999.99
+                    [code] => USD
+                )
+
+            [availability] => InStock
+            [taxRate] => Array
+                (
+                    [country] => US
+                    [region] => TX
+                    [rate] => 8.5
+                    [taxShipping] => 
+                )
+
+            [shipping] => Array
+                (
+                    [country] => US
+                    [region] => TX
+                    [service] => UPS
+                    [price] => Array
+                        (
+                            [amount] => 3.99
+                            [code] => USD
+                        )
+
+                )
+
+            [shippingWeight] => 0
+            [attributes] => Array
+                (
+                )
+
+            [variations] => Array
+                (
+                )
+
+            [offerId] => NA
+            [cpc] => Array
+                (
+                    [amount] => 0
+                    [code] => USD
+                )
+
+        )
+
+    [_id] => MongoId Object
+        (
+            [$id] => 4f624674a4b773c418000000
+        )
+
+)
+
+
+INFO: Inserted document with ID: 4f624674a4b773c418000000
+
+============================================
+
+INFO: Item inserted in database: Array
+(
+    [0] => Array
+        (
+            [sku] => 5849653452890551706
+            [title] => Adcom GFR700 Adcom Gfr-700 7.1-Channel 145-Watt A/V Receiver
+            [description] => Adcom Gfr-700 7.1-Channel 145-Watt A/V Receiver
+            [manufacturer] => Audiovideo Dimension
+            [MPN] => NA
+            [GTIN] => NA
+            [brand] => Adcom
+            [category] => NA
+            [images] => Array
+                (
+                )
+
+            [link] => http://www.audiovideodimension.com/adcom-gfr700-p-6667.html?currency=USD
+            [condition] => New
+            [salePrice] => Array
+                (
+                    [amount] => 999.99
+                    [code] => USD
+                )
+
+            [originalPrice] => Array
+                (
+                    [amount] => 999.99
+                    [code] => USD
+                )
+
+            [availability] => InStock
+            [taxRate] => Array
+                (
+                    [country] => US
+                    [region] => TX
+                    [rate] => 8.5
+                    [taxShipping] => 
+                )
+
+            [shipping] => Array
+                (
+                    [country] => US
+                    [region] => TX
+                    [service] => UPS
+                    [price] => Array
+                        (
+                            [amount] => 3.99
+                            [code] => USD
+                        )
+
+                )
+
+            [shippingWeight] => 0
+            [attributes] => Array
+                (
+                )
+
+            [variations] => Array
+                (
+                )
+
+            [offerId] => NA
+            [cpc] => Array
+                (
+                    [amount] => 0
+                    [code] => USD
+                )
+
+        )
+
+    [_id] => MongoId Object
+        (
+            [$id] => 4f624674a4b773d420000003
+        )
+
+)
+
+
+INFO: Inserted document with ID: 4f624674a4b773d420000003
+
+============================================
+
+INFO: Message /cse/offer/created sent to Fabric
+
+INFO: Response from Fabric: HTTP/1.1 200 OK
+X-XC-MESSAGE-GUID: 00bff7dc-b2ab-4f57-ad7f-138c3e06ce11
+Content-Length: 0
+Server: Jetty(6.1.x)
+
+
+
+INFO: Message /cse/offer/created sent to Fabric
+
+INFO: Response from Fabric: HTTP/1.1 200 OK
+X-XC-MESSAGE-GUID: 1d420b4a-385c-40c4-ac3c-6006b89863ea
+Content-Length: 0
+Server: Jetty(6.1.x)
+
+
+
+============================================
+
+INFO: Message posted by the Fabric on topic /cse/offer/create
+
+INFO: HTTP headers retrieved from received message: Array
+(
+    [Authorization] => Bearer QkEAATLu73MuKx43NRDzn8ug0yHWAoLR3f3r0x0aiQfv0IsTIunYcozzTfJK1B0U8firvQ==
+    [Content-Type] => avro/binary
+    [X-XC-MESSAGE-GUID] => 8867fdc7-510d-40b5-890f-a81755c107f2
+    [X-XC-PUBLISHER] => TUQAAYlW2Ao8MCJuLC8YJnG/ZuC8dZm4QM/C7JjHziRtbDQoGB1lhEC+qp0qrgzzynVvRw==
+    [X-XC-SCHEMA-URI] => http://localhost/web/cse_demo/cse.avpr
+    [X-XC-SCHEMA-VERSION] => 1.0.0
+    [X-XC-TENANT-ID] => VEkAAUdMPOR7BA5HRCGB/u8DgZCEZhbT7iuWc8Z2JUvf+mGs5furvgFEDDBQIRSgzkUGiw==
+    [Content-Length] => 331
+    [Host] => 127.0.0.1
+    [Connection] => Keep-Alive
+    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+)
+
+
+INFO: URI of Avro message schema retrieved from received message: http://localhost/web/cse_demo/cse.avpr
+
+============================================
+
+INFO: Message posted by the Fabric on topic /cse/offer/create
+
+INFO: HTTP headers retrieved from received message: Array
+(
+    [Authorization] => Bearer QkEAAW2VMIoOWKtRhDjyg5l8Xfd9Z2hzu2B97O4tdK2YC85lxzCl/WjFXoX8r86BbBETLQ==
+    [Content-Type] => avro/binary
+    [X-XC-MESSAGE-GUID] => 4cda58ce-9fab-42c5-811d-dbf63ea76bd4
+    [X-XC-PUBLISHER] => TUQAAexUtWpEDormI/PaT9naTf9+91AKzjpB2dS1x7cXjDuQVxM3PaO8fwIlpZeH5CFg8g==
+    [X-XC-SCHEMA-URI] => http://localhost/web/cse_demo/cse.avpr
+    [X-XC-SCHEMA-VERSION] => 1.0.0
+    [X-XC-TENANT-ID] => VEkAAZM6ELD1RMi9IRzX+e8nRoP2ny8IObDGqwlJSfjcX9sCu40cLfIONaOpVHcRz6G3NA==
+    [Content-Length] => 331
+    [Host] => 127.0.0.1
+    [Connection] => Keep-Alive
+    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+)
+
+
+INFO: URI of Avro message schema retrieved from received message: http://localhost/web/cse_demo/cse.avpr
+
+INFO: Decoded message: Array
+(
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [sku] => 5849653452890551706
+                    [title] => Adcom GFR700 Adcom Gfr-700 7.1-Channel 145-Watt A/V Receiver
+                    [description] => Adcom Gfr-700 7.1-Channel 145-Watt A/V Receiver
+                    [manufacturer] => Audiovideo Dimension
+                    [MPN] => NA
+                    [GTIN] => NA
+                    [brand] => Adcom
+                    [category] => NA
+                    [images] => Array
+                        (
+                        )
+
+                    [link] => http://www.audiovideodimension.com/adcom-gfr700-p-6667.html?currency=USD
+                    [condition] => New
+                    [salePrice] => Array
+                        (
+                            [amount] => 999.99
+                            [code] => USD
+                        )
+
+                    [originalPrice] => Array
+                        (
+                            [amount] => 999.99
+                            [code] => USD
+                        )
+
+                    [availability] => InStock
+                    [taxRate] => Array
+                        (
+                            [country] => US
+                            [region] => TX
+                            [rate] => 8.5
+                            [taxShipping] => 
+                        )
+
+                    [shipping] => Array
+                        (
+                            [country] => US
+                            [region] => TX
+                            [service] => UPS
+                            [price] => Array
+                                (
+                                    [amount] => 3.99
+                                    [code] => USD
+                                )
+
+                        )
+
+                    [shippingWeight] => 0
+                    [attributes] => Array
+                        (
+                        )
+
+                    [variations] => Array
+                        (
+                        )
+
+                    [offerId] => NA
+                    [cpc] => Array
+                        (
+                            [amount] => 0
+                            [code] => USD
+                        )
+
+                )
+
+        )
+
+    [productFeedType] => Full
+)
+
+
+INFO: Decoded message: Array
+(
+    [products] => Array
+        (
+            [0] => Array
+                (
+                    [sku] => 5849653452890551706
+                    [title] => Adcom GFR700 Adcom Gfr-700 7.1-Channel 145-Watt A/V Receiver
+                    [description] => Adcom Gfr-700 7.1-Channel 145-Watt A/V Receiver
+                    [manufacturer] => Audiovideo Dimension
+                    [MPN] => NA
+                    [GTIN] => NA
+                    [brand] => Adcom
+                    [category] => NA
+                    [images] => Array
+                        (
+                        )
+
+                    [link] => http://www.audiovideodimension.com/adcom-gfr700-p-6667.html?currency=USD
+                    [condition] => New
+                    [salePrice] => Array
+                        (
+                            [amount] => 999.99
+                            [code] => USD
+                        )
+
+                    [originalPrice] => Array
+                        (
+                            [amount] => 999.99
+                            [code] => USD
+                        )
+
+                    [availability] => InStock
+                    [taxRate] => Array
+                        (
+                            [country] => US
+                            [region] => TX
+                            [rate] => 8.5
+                            [taxShipping] => 
+                        )
+
+                    [shipping] => Array
+                        (
+                            [country] => US
+                            [region] => TX
+                            [service] => UPS
+                            [price] => Array
+                                (
+                                    [amount] => 3.99
+                                    [code] => USD
+                                )
+
+                        )
+
+                    [shippingWeight] => 0
+                    [attributes] => Array
+                        (
+                        )
+
+                    [variations] => Array
+                        (
+                        )
+
+                    [offerId] => NA
+                    [cpc] => Array
+                        (
+                            [amount] => 0
+                            [code] => USD
+                        )
+
+                )
+
+        )
+
+    [productFeedType] => Full
+)
+
+
+INFO: Item inserted in database: Array
+(
+    [0] => Array
+        (
+            [sku] => 5849653452890551706
+            [title] => Adcom GFR700 Adcom Gfr-700 7.1-Channel 145-Watt A/V Receiver
+            [description] => Adcom Gfr-700 7.1-Channel 145-Watt A/V Receiver
+            [manufacturer] => Audiovideo Dimension
+            [MPN] => NA
+            [GTIN] => NA
+            [brand] => Adcom
+            [category] => NA
+            [images] => Array
+                (
+                )
+
+            [link] => http://www.audiovideodimension.com/adcom-gfr700-p-6667.html?currency=USD
+            [condition] => New
+            [salePrice] => Array
+                (
+                    [amount] => 999.99
+                    [code] => USD
+                )
+
+            [originalPrice] => Array
+                (
+                    [amount] => 999.99
+                    [code] => USD
+                )
+
+            [availability] => InStock
+            [taxRate] => Array
+                (
+                    [country] => US
+                    [region] => TX
+                    [rate] => 8.5
+                    [taxShipping] => 
+                )
+
+            [shipping] => Array
+                (
+                    [country] => US
+                    [region] => TX
+                    [service] => UPS
+                    [price] => Array
+                        (
+                            [amount] => 3.99
+                            [code] => USD
+                        )
+
+                )
+
+            [shippingWeight] => 0
+            [attributes] => Array
+                (
+                )
+
+            [variations] => Array
+                (
+                )
+
+            [offerId] => NA
+            [cpc] => Array
+                (
+                    [amount] => 0
+                    [code] => USD
+                )
+
+        )
+
+    [_id] => MongoId Object
+        (
+            [$id] => 4f6249bca4b773c418000001
+        )
+
+)
+
+
+INFO: Inserted document with ID: 4f6249bca4b773c418000001
+
+============================================
+
+INFO: Item inserted in database: Array
+(
+    [0] => Array
+        (
+            [sku] => 5849653452890551706
+            [title] => Adcom GFR700 Adcom Gfr-700 7.1-Channel 145-Watt A/V Receiver
+            [description] => Adcom Gfr-700 7.1-Channel 145-Watt A/V Receiver
+            [manufacturer] => Audiovideo Dimension
+            [MPN] => NA
+            [GTIN] => NA
+            [brand] => Adcom
+            [category] => NA
+            [images] => Array
+                (
+                )
+
+            [link] => http://www.audiovideodimension.com/adcom-gfr700-p-6667.html?currency=USD
+            [condition] => New
+            [salePrice] => Array
+                (
+                    [amount] => 999.99
+                    [code] => USD
+                )
+
+            [originalPrice] => Array
+                (
+                    [amount] => 999.99
+                    [code] => USD
+                )
+
+            [availability] => InStock
+            [taxRate] => Array
+                (
+                    [country] => US
+                    [region] => TX
+                    [rate] => 8.5
+                    [taxShipping] => 
+                )
+
+            [shipping] => Array
+                (
+                    [country] => US
+                    [region] => TX
+                    [service] => UPS
+                    [price] => Array
+                        (
+                            [amount] => 3.99
+                            [code] => USD
+                        )
+
+                )
+
+            [shippingWeight] => 0
+            [attributes] => Array
+                (
+                )
+
+            [variations] => Array
+                (
+                )
+
+            [offerId] => NA
+            [cpc] => Array
+                (
+                    [amount] => 0
+                    [code] => USD
+                )
+
+        )
+
+    [_id] => MongoId Object
+        (
+            [$id] => 4f6249bca4b7737022000002
+        )
+
+)
+
+
+INFO: Inserted document with ID: 4f6249bca4b7737022000002
+
+============================================
+
+INFO: Message /cse/offer/created sent to Fabric
+
+INFO: Response from Fabric: HTTP/1.1 200 OK
+X-XC-MESSAGE-GUID: f2dddf41-19ab-439f-bc52-243c49940195
+Content-Length: 0
+Server: Jetty(6.1.x)
+
+
+
+INFO: Message /cse/offer/created sent to Fabric
+
+INFO: Response from Fabric: HTTP/1.1 200 OK
+X-XC-MESSAGE-GUID: d12922cf-2b56-40d1-9313-3133276fb046
+Content-Length: 0
+Server: Jetty(6.1.x)
+
+
+

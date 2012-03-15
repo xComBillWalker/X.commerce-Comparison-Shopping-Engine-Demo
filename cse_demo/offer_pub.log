@@ -1,0 +1,160 @@
+============================================
+
+INFO: Message posted by the Fabric on topic /cse/offer/created
+
+INFO: HTTP headers retrieved from received message: Array
+(
+    [Authorization] => Bearer QkEAAW2VMIoOWKtRhDjyg5l8Xfd9Z2hzu2B97O4tdK2YC85lxzCl/WjFXoX8r86BbBETLQ==
+    [Content-Type] => avro/binary
+    [X-XC-MESSAGE-GUID] => 76e6d4b3-b279-4f1e-9b28-6f32597f8131
+    [X-XC-PUBLISHER] => TUQAARbj02zfhAqT5N+aR4U7VezfitWczv6wRRY6lDKkc1A4dL5t5XrJDO/6B/tIhftNSw==
+    [X-XC-SCHEMA-URI] => http://localhost/web/cse_demo/cse.avpr
+    [X-XC-SCHEMA-VERSION] => 1.0.0
+    [X-XC-TENANT-ID] => VEkAAZM6ELD1RMi9IRzX+e8nRoP2ny8IObDGqwlJSfjcX9sCu40cLfIONaOpVHcRz6G3NA==
+    [Content-Length] => 331
+    [Host] => 127.0.0.1
+    [Connection] => Keep-Alive
+    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+)
+
+
+============================================
+
+INFO: Message posted by the Fabric on topic /cse/offer/created
+
+INFO: HTTP headers retrieved from received message: Array
+(
+    [Authorization] => Bearer QkEAATLu73MuKx43NRDzn8ug0yHWAoLR3f3r0x0aiQfv0IsTIunYcozzTfJK1B0U8firvQ==
+    [Content-Type] => avro/binary
+    [X-XC-MESSAGE-GUID] => 272502b3-374a-4325-b0cc-c608386b5b48
+    [X-XC-PUBLISHER] => TUQAAYq4tPrvrjFudBpRT5qz0ITFSLU6NOUgZUeUVejmDm15q9U5pKVj4xznflaTtBRtRw==
+    [X-XC-SCHEMA-URI] => http://localhost/web/cse_demo/cse.avpr
+    [X-XC-SCHEMA-VERSION] => 1.0.0
+    [X-XC-TENANT-ID] => VEkAAUdMPOR7BA5HRCGB/u8DgZCEZhbT7iuWc8Z2JUvf+mGs5furvgFEDDBQIRSgzkUGiw==
+    [Content-Length] => 331
+    [Host] => 127.0.0.1
+    [Connection] => Keep-Alive
+    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+)
+
+
+============================================
+
+INFO: Message posted by the Fabric on topic /cse/offer/created
+
+INFO: HTTP headers retrieved from received message: Array
+(
+    [Authorization] => Bearer QkEAATLu73MuKx43NRDzn8ug0yHWAoLR3f3r0x0aiQfv0IsTIunYcozzTfJK1B0U8firvQ==
+    [Content-Type] => avro/binary
+    [X-XC-MESSAGE-GUID] => cc958d2f-7249-46a0-b793-8f81a1022e5f
+    [X-XC-PUBLISHER] => TUQAAZUM+T+hIbMXIvhaeSwYT28lmxROyQnJGBIc6rDINJGL106WFchk5OBqj+9RGA2ONQ==
+    [X-XC-SCHEMA-URI] => http://localhost/web/cse_demo/cse.avpr
+    [X-XC-SCHEMA-VERSION] => 1.0.0
+    [X-XC-TENANT-ID] => VEkAAUdMPOR7BA5HRCGB/u8DgZCEZhbT7iuWc8Z2JUvf+mGs5furvgFEDDBQIRSgzkUGiw==
+    [Content-Length] => 331
+    [Host] => 127.0.0.1
+    [Connection] => Keep-Alive
+    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+)
+
+
+============================================
+
+INFO: Message posted by the Fabric on topic /cse/offer/created
+
+INFO: HTTP headers retrieved from received message: Array
+(
+    [Authorization] => Bearer QkEAAW2VMIoOWKtRhDjyg5l8Xfd9Z2hzu2B97O4tdK2YC85lxzCl/WjFXoX8r86BbBETLQ==
+    [Content-Type] => avro/binary
+    [X-XC-MESSAGE-GUID] => f386f65d-9d36-4537-bce7-1475190c47d4
+    [X-XC-PUBLISHER] => TUQAAWE8vU00Pf0DfYPaysEZc1onvV88GG5kStOmbexgcxW/W7DfgCp6xrsqZ2aHv5nWJg==
+    [X-XC-SCHEMA-URI] => http://localhost/web/cse_demo/cse.avpr
+    [X-XC-SCHEMA-VERSION] => 1.0.0
+    [X-XC-TENANT-ID] => VEkAAZM6ELD1RMi9IRzX+e8nRoP2ny8IObDGqwlJSfjcX9sCu40cLfIONaOpVHcRz6G3NA==
+    [Content-Length] => 331
+    [Host] => 127.0.0.1
+    [Connection] => Keep-Alive
+    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+)
+
+
+============================================
+
+INFO: Message posted by the Fabric on topic /cse/offer/created
+
+INFO: HTTP headers retrieved from received message: Array
+(
+    [Authorization] => Bearer QkEAATLu73MuKx43NRDzn8ug0yHWAoLR3f3r0x0aiQfv0IsTIunYcozzTfJK1B0U8firvQ==
+    [Content-Type] => avro/binary
+    [X-XC-MESSAGE-GUID] => 41d0c137-eb3e-4d44-be40-94d38d50b5ae
+    [X-XC-PUBLISHER] => TUQAAfHWh4NE0Yl0sx4wdK6bbVuRgTH03Qpq6zoWMYm8MhDkZJ9qPeXtzXtaytZFS9BVCQ==
+    [X-XC-SCHEMA-URI] => http://localhost/web/cse_demo/cse.avpr
+    [X-XC-SCHEMA-VERSION] => 1.0.0
+    [X-XC-TENANT-ID] => VEkAAUdMPOR7BA5HRCGB/u8DgZCEZhbT7iuWc8Z2JUvf+mGs5furvgFEDDBQIRSgzkUGiw==
+    [Content-Length] => 331
+    [Host] => 127.0.0.1
+    [Connection] => Keep-Alive
+    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+)
+
+
+============================================
+
+INFO: Message posted by the Fabric on topic /cse/offer/created
+
+INFO: HTTP headers retrieved from received message: Array
+(
+    [Authorization] => Bearer QkEAAW2VMIoOWKtRhDjyg5l8Xfd9Z2hzu2B97O4tdK2YC85lxzCl/WjFXoX8r86BbBETLQ==
+    [Content-Type] => avro/binary
+    [X-XC-MESSAGE-GUID] => 6fb32b2f-9f2b-4d66-a09f-437e63f4fe15
+    [X-XC-PUBLISHER] => TUQAAf5iInDFWySG3k77wS3/E8HqF0oeaeu1QevOa81dmj76sZQI6gJqbv+HgJ7C3mrrdA==
+    [X-XC-SCHEMA-URI] => http://localhost/web/cse_demo/cse.avpr
+    [X-XC-SCHEMA-VERSION] => 1.0.0
+    [X-XC-TENANT-ID] => VEkAAZM6ELD1RMi9IRzX+e8nRoP2ny8IObDGqwlJSfjcX9sCu40cLfIONaOpVHcRz6G3NA==
+    [Content-Length] => 331
+    [Host] => 127.0.0.1
+    [Connection] => Keep-Alive
+    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+)
+
+
+============================================
+
+============================================
+
+INFO: Message posted by the Fabric on topic /cse/offer/created
+
+INFO: Message posted by the Fabric on topic /cse/offer/created
+
+INFO: HTTP headers retrieved from received message: Array
+(
+    [Authorization] => Bearer QkEAATLu73MuKx43NRDzn8ug0yHWAoLR3f3r0x0aiQfv0IsTIunYcozzTfJK1B0U8firvQ==
+    [Content-Type] => avro/binary
+    [X-XC-MESSAGE-GUID] => ceea564b-735c-40c3-bb16-7f1f43fa298d
+    [X-XC-PUBLISHER] => TUQAAVBb9+VxJuYp+Eva/lSC6z1ehGzWKyFe59B6Cgrc+iEwUBwRQ4PM5GsnChkCav8ykg==
+    [X-XC-SCHEMA-URI] => http://localhost/web/cse_demo/cse.avpr
+    [X-XC-SCHEMA-VERSION] => 1.0.0
+    [X-XC-TENANT-ID] => VEkAAUdMPOR7BA5HRCGB/u8DgZCEZhbT7iuWc8Z2JUvf+mGs5furvgFEDDBQIRSgzkUGiw==
+    [Content-Length] => 331
+    [Host] => 127.0.0.1
+    [Connection] => Keep-Alive
+    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+)
+
+
+INFO: HTTP headers retrieved from received message: Array
+(
+    [Authorization] => Bearer QkEAAW2VMIoOWKtRhDjyg5l8Xfd9Z2hzu2B97O4tdK2YC85lxzCl/WjFXoX8r86BbBETLQ==
+    [Content-Type] => avro/binary
+    [X-XC-MESSAGE-GUID] => 02d2ef5d-10d0-4932-bd2c-39ec3cca50cb
+    [X-XC-PUBLISHER] => TUQAAapfwMJRyd5s1EyUg8zIv/KAEfZzAScC0HXwde88k8Au9Er0ytpFC12nXSfgvmxoqA==
+    [X-XC-SCHEMA-URI] => http://localhost/web/cse_demo/cse.avpr
+    [X-XC-SCHEMA-VERSION] => 1.0.0
+    [X-XC-TENANT-ID] => VEkAAZM6ELD1RMi9IRzX+e8nRoP2ny8IObDGqwlJSfjcX9sCu40cLfIONaOpVHcRz6G3NA==
+    [Content-Length] => 331
+    [Host] => 127.0.0.1
+    [Connection] => Keep-Alive
+    [User-Agent] => Apache-HttpClient/4.1.1 (java 1.5)
+)
+
+
