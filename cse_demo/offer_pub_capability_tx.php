@@ -41,7 +41,7 @@ function getTestProductData($apikey, $query)
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true); // TRUE to return the transfer as a string of the return value of curl_exec() instead of outputting it directly.
 	curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); // stop cURL from verifying the peer's certificate when the https protocol is used
 	
-	// Send a GET HTTP request containing the URL constructed above
+	// Send an HTTP GET request containing the URL constructed above
     // If the request is successful, the returned product information is saved in $json.
 	$json = curl_exec($ch);
 	
