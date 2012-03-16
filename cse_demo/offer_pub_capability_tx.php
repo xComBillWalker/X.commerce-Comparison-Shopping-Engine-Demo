@@ -136,7 +136,7 @@ function mapTestDataToCSEMessage($items)
 // Get test product offer data, so the demo has data to work with
 $apikey = ""; // <-- YOUR GOOGLE PRODUCT SEARCH API KEY HERE"
 if ("" == $apikey) die("FATAL ERROR: No Google Product Search API Key.\nGo here to get one: http://code.google.com/apis/shopping/search/v1/getting_started.html");
-$test_product_array = getTestProductData($apikey, "adcom");
+$test_product_array = getTestProductData($apikey, "iphone");
 
 // Map the returned test product data to the standard CSE message schema, 
 // that is, to a message whose structure adheres to the message schema for topic /cse/offer/create
@@ -205,6 +205,7 @@ try {
 	curl_setopt($ch
 			  ,CURLOPT_HTTPHEADER
 			  ,array("Content-Type: avro/binary"
+			  	 // INSERT YOUR TENANT BEARER TOKEN BELOW
 			  	 ,"Authorization: Bearer QUkAAXfnTQzCvBsGJPVJt20ELKBKroF6nZWFvgNfonebXgKcKhSZkC6+MWbHyjcikP6z5g==" // <- bearer token of merchant 2 added as tenant of Offer Publisher
 			  	 ,"X-XC-SCHEMA-URI: http://localhost/web/cse_demo/cse.avpr"
 			     ,"X-XC-SCHEMA-VERSION: 1.0.0")); 
