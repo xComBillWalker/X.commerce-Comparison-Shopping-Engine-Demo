@@ -124,6 +124,7 @@ try {
 	curl_setopt($ch
 			,CURLOPT_HTTPHEADER
 			,array("Content-Type: avro/binary"
+				// INSERT YOUR TENANT BEARER TOKEN BELOW
 				,"Authorization: Bearer QUkAAaM+u42KAGU0d8kb819B9LUtB7G5IWLz//45TKM9au9xlWaen5ZHH1yn5OqlPk+HRQ==" // <-- bearer token of merchant 2 added as tenant of cse_capability
 				,"X-XC-MESSAGE-GUID-CONTINUATION: $msg_guid" // in "ack" message, send the GUID of the message being "acked"
 				,"X-XC-SCHEMA-URI: http://localhost/web/cse_demo/cse.avpr"
