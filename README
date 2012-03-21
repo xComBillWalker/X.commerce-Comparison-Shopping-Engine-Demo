@@ -1,53 +1,59 @@
-To run the CSE demo, you must:
+To run the CSE Demo program, you must:
 
-1) Install these tools:
+1) Obtain and install these tools:
 -- MongoDB 2.0.1
 -- PHP 5.3
--- A local copy of the X.commerce Fabric
+-- GNU Multiple Precision Arithmetic (GMP) PHP extension 
+-- MongoDB PHP extension
 
-2) Enable these PHP extensions in PHP.ini:
+2) Enable the PHP extensions listed above by adding these lines to your web server's PHP.ini file:
 -- extension=php_gmp.dll
 -- extension=php_mongo.dll
 
 3) Copy the cse_demo directory obtained from github.com to your web server’s document root directory.
+NOTE: Your web server MUST be listening for messages on a publically accessable IP address (hereinafter refered to as your_pub_ip_addr); otherwise, the Fabric will NOT be able to send messages to your server.
 
-4) Obtain an API key for the Google product search API from this URL:
+4) Open the file path_to_doc_root/cse_demo/.htaccess
+-- Make sure that the RewriteBase path matches your web server's file setup.
+-- If things don’t work, an incorrect path here is often the reason.
+
+5) Obtain an API key for the Google product search API from this URL:
 -- http://code.google.com/apis/shopping/search/v1/getting_started.html
 
-5) Add this key to the file offer_pub_capability_tx.php where indicated by the comment <-- YOUR GOOGLE PRODUCT SEARCH API KEY HERE"
+6) Add this API key to the file offer_pub_capability_tx.php where indicated by the comment "<-- YOUR GOOGLE PRODUCT SEARCH API KEY HERE"
 
-6) In the file offer_pub_capability_tx.php:
--- a) Comment out this line:  curl_setopt($ch, CURLOPT_URL, "https://api.sandbox.x.com/fabric/experimental/cse/offer/create"); // sandbox Fabric
--- b) Add this line in its place: curl_setopt($ch, CURLOPT_URL, "https://localhost:8080/cse/offer/create"); // local fabric
-
-7) Open the file .htaccess
--- Make sure that the RewriteBase path matches your setup.
--- If things don’t work, an incorrect path here is often the reason
-
-8) Run an instance of MongoDB.
-
-9) Run the Fabric locally.
-
-10) Run the XManager UI program (https://localhost:8079)
--- a) Create an capability named Offer Pub and set its endpoint to http://127.0.0.1/path_to_offer_pub_capability_rx.php
--- b) Add merchant 2 to the Offer Pub capability
--- c) Insert the generated bearer token for merchant 2 in the file offer_pub_capability_tx.php where indicated 
+7) Use the the X.commerce Developer Portal to configure the sandbox Fabric to work with the CSE demo.
+-- a) Browse to this URL -- https://devportal.x.com/ -- and sign in to the Developer Portal.
+-- b) Click the Manage Sandbox button (in the lower-right of the page).
+-- c) For the Offer Publisher capability, use the available screens to do these things:
+----- i)   Register a capability named Offer Pub whose endpoint is http://your_pub_ip_addr/doc_root/cse_demo
+----- ii)  Subscribe the Offer Pub capability to topic /cse/offer/created
+----- iii) Create a test merchant named merchant 1 and subscribe this merchant to the Offer Pub capability.
+----- iv)  Insert the tenant bearer token generated in the step above in the file offer_pub_capability_tx.php where indicated 
 by the comment // INSERT YOUR TENANT BEARER TOKEN BELOW
--- d) Create a capability named CSE and set its endpoint to http://127.0.0.1/path_to_cse_capability.php 
-(probably same path as for offer_pub_capbility_rx above)
--- e) Add merchant 2 to the CSE capability
--- f) Insert the generated bearer token for merchant 2 in the file cse_capability.phph where indicated
+-- d) For the CSE Capability, use the available screens to do these things:
+----- i)   Register a capability named CSE whose endpoint is http://your_pub_ip_addr/doc_root/cse_demo
+----- ii)  Subscribe the Offer Pub capability to topic /cse/offer/create
+----- iii) Subscribe merchant 1 to the CSE capability.
+----- iv)  Insert the tenant bearer token generated in the step above in the file cse_capability.php where indicated 
 by the comment // INSERT YOUR TENANT BEARER TOKEN BELOW
+-- e) Sign out of the Developer Portal.
+ 
+8) From the command line, run this command: 
+-- tail -f full_path_to_doc_root/cse_demo/cse.log 
 
-11) From the command line, run this command: tail -f installdir/cse_demo/cse.log 
 -- The CSE capability writes to this log when it receives a message on topic /cse/offer/create and when it sends a message on topic/cse/offer/created. 
--- The tail command lets you see these writes as they happen, thereby showing you that the CSE capability is working.
+-- The tail command lets you see these writes as they happen, thereby showing that the CSE capability is working.
 
-12) From the command line, run this command: tail -f installdir/cse_demo/offer_pub.log 
--- The Offer Publisher capability writes to this log when it receives a message on /cse/offer/created
+9) From the command line, run this command:
+-- tail -f full_path_to_doc_root/cse_demo/offer_pub.log
+ 
+-- The Offer Publisher capability writes to this log when it receives a message on /cse/offer/created.
 -- The tail command lets you see these writes as they happen, thereby showing you that the Offer Publisher capability is working.
 
-13) Start your web server
+10) Start your web server.
 
-14) From the command line, run this command: php -f installdir/cse_demo/offer_pub_capability_tx.php
--- If everything is set up correctly, you should see entries written to the log files cse.log and then offer_pub.log
+11) From the command line, run this command:
+-- php -f full_path_to_doc_root/cse_demo/offer_pub_capability_tx.php
+
+-- If everything is set up correctly, you should see entries written to cse.log and then to offer_pub.log.
