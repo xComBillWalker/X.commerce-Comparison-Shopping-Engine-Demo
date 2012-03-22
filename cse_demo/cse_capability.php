@@ -107,10 +107,9 @@ try {
 	curl_setopt($ch, CURLOPT_POST, true);
 
 	// Set the URL of the target resource, in this case the X.commerce Fabric
-	// This URL is of the form "https://" + hostname:portnum of the Fabric + the topic on which you are publishing
-	curl_setopt($ch, CURLOPT_URL, "https://localhost:8080/cse/offer/created");
-	//	curl_setopt($ch, CURLOPT_URL, "https://api.sandbox.x.com/fabric/experimental/cse/offer/create"); // for sandbox Fabric
-
+	// This URL is of the form "https://" + hostname of the sandbox Fabric + the topic on which you are publishing
+	curl_setopt($ch, CURLOPT_URL, "https://api.sandbox.x.com/fabric/cse/offer/created"); // sandbox Fabric + real CSE topic 
+	
 	// Add these HTTP headers to the POST request message
 	// - Content-Type: set to avro/binary because the message body is in Avro binary format
 	// - Authorization: MUST be set to the tenant bearer token for the merchant added to the CSE capability as a tenant
@@ -125,7 +124,7 @@ try {
 			,CURLOPT_HTTPHEADER
 			,array("Content-Type: avro/binary"
 				// INSERT YOUR TENANT BEARER TOKEN BELOW
-				,"Authorization: Bearer QUkAAaM+u42KAGU0d8kb819B9LUtB7G5IWLz//45TKM9au9xlWaen5ZHH1yn5OqlPk+HRQ==" // <-- bearer token of merchant 2 added as tenant of cse_capability
+				,"Authorization: Bearer QUkAAXfnTQzCvBsGJPVJt20ELKBKroF6nZWFvgNfonebXgKcKhSZkC6+MWbHyjcikP6z5g==" // <-- bearer token of merchant 2 added as tenant of cse_capability
 				,"X-XC-MESSAGE-GUID-CONTINUATION: $msg_guid" // in "ack" message, send the GUID of the message being "acked"
 				,"X-XC-SCHEMA-URI: http://localhost/web/cse_demo/cse.avpr"
 				,"X-XC-SCHEMA-VERSION: 1.0.0"));
